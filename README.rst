@@ -2,7 +2,7 @@
 salt-formula-lucee
 ==================
 
-A saltstack formula to install Lucee (http://lucee.org).
+A SaltStack formula to install Lucee (http://lucee.org).
 
 .. note::
 
