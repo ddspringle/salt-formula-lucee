@@ -1,0 +1,16 @@
+lucee:
+  lucee_version: 5.2.5.020
+  installer_version: pl0
+  cpu_arch: x64
+  password: YOURPASSWORDHERE
+  run_as_user: lucee
+  install_dir: /opt/lucee
+  tomcat_port: 8888
+  tomcat_shutdown_port: 8005
+  tomcat_ajp_port: 8009
+  start_at_boot: true
+  install_apache_connector: true
+  apache_control_loc:
+  apache_modules_loc:
+  apache_config_loc:
+  apache_log_loc:

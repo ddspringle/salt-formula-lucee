@@ -1,0 +1,14 @@
+{% set lucee = salt['pillar.get']( 'lucee', {} ) %}
+luceepass={{lucee.password}}
+installdir={{lucee.install_dir}}
+tomcatport={{lucee.tomcat_port}}
+tomcatshutdownport={{lucee.tomcat_shutdown_port}}
+tomcatajpport={{lucee.tomcat_ajp_port}}
+systemuser={{lucee.run_as_user}}
+startatboot={{lucee.start_at_boot}}
+installconn={{lucee.install_apache_connector}}
+apachecontrolloc={{lucee.apache_control_loc}}
+apachemodulesloc={{lucee.apache_modules_loc}}
+apacheconfigloc={{lucee.apache_config_loc}}
+apachelogloc={{lucee.apache_log_loc}}
+installiis=false
