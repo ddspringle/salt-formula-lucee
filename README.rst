@@ -30,47 +30,47 @@ Pillar data
 ``lucee_version``
 -----------------
 
-Enter the version of Lucee you wish to install (see: http://download.lucee.org/). Ex: 5.2.5.020
+The version of Lucee you wish to install (see: http://download.lucee.org/). Ex: 5.2.5.020
 
 ``installer_version``
 ---------------------
 
-Enter the version of the installer to use. This is typically 'pl0', but occasionally may be updated (pl1, pl2, etc.)
+The version of the installer to use. This is typically 'pl0', but occasionally may be updated (pl1, pl2, etc.)
 
 ``cpu_arch``
 ------------
 
-Enter the processor archtecture you are running, either x86 (32 bit) or x64 (64 bit)
+The processor archtecture you are running, either x86 (32 bit) or x64 (64 bit)
 
 ``password``
 ------------
 
-Enter the password to use for logging into the Lucee admin after install.
+The password to use for logging into the Lucee admin after install. This password must be 6 or more characters.
 
 ``run_as_user``
 ---------------
 
-Enter the user on the server that Lucee should run under. Ex: lucee
+The user on the server that Lucee should run under. If this user account doesn't exist, a user and group account will be made using this name. Ex: lucee
 
 ``install_dir``
 ---------------
 
-Enter the directory where Lucee should be installed: Ex: /opt/lucee
+The directory where Lucee should be installed: Ex: /opt/lucee
 
 ``tomcat_port``
 ---------------
 
-Enter the port that Tomcat should run on. Ex: 8888
+The port that Tomcat should run on. Ex: 8888
 
 ``tomcat_shutdown_port``
 ------------------------
 
-Enter the port that Tomcat should listen to for shutdown requests. Ex: 8005
+The port that Tomcat should listen to for shutdown requests. Ex: 8005
 
 ``tomcat_ajp_port``
 -------------------
 
-Enter the port that Tomcat listens to AJP requests on. Ex: 8009
+The port that Tomcat listens to AJP requests on. Ex: 8009
 
 ``start_at_boot``
 -----------------
@@ -85,22 +85,22 @@ Enter true to install mod_cfml and connect Lucee to the Apache web server, other
 ``apache_control_loc``
 ----------------------
 
-Enter the location of your apachectl script. Ex: /usr/sbin/apachectl
+The location of your apachectl script. Ex: /usr/sbin/apachectl
 
 ``apache_modules_loc``
 ----------------------
 
-Enter the location of your apache modules. Leave blank for default location based on OS and architecture.
+The location of your apache modules. Leave blank for default location based on OS and architecture.
 
 ``apache_config_loc``
 ---------------------
 
-Enter the location of your apache config files. Leave blank for default location based on OS and architecture.
+The location of your apache config files. Leave blank for default location based on OS and architecture.
 
 ``apache_log_loc``
 ------------------
 
-Enter the location of your apache log files. Leave blank for default location based on OS and architecture.
+The location of your apache log files. Leave blank for default location based on OS and architecture.
 
 
 Bugs and Feature Requests
