@@ -2,7 +2,7 @@
 salt-formula-lucee
 ==================
 
-A saltstack formula to install Lucee.
+A saltstack formula to install Lucee (http://lucee.org).
 
 .. note::
 
@@ -18,7 +18,7 @@ Available states
 ``lucee``
 ---------
 
-Installs Lucee in unattended mode (see <http://docs.lucee.org/guides/Various/installation-installer-documentation/installation-linux/installing-in-unattended-mode.html> for documentation) on Linux, and starts the associated services.
+Installs Lucee in unattended mode on Linux (see http://docs.lucee.org/guides/Various/installation-installer-documentation/installation-linux/installing-in-unattended-mode.html for documentation).
 
 
 Pillar data
